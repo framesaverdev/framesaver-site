@@ -1,0 +1,125 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}</style><style>:root{color-scheme:light dark;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}}:root[data-theme="dark"]{color-scheme:dark;--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}:root[data-theme="light"]{color-scheme:light}@media print{:root,:root[data-theme="dark"]{color-scheme:light;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}}body{background:var(--md-bg);color:var(--md-text);max-width:720px;margin:0 auto;padding:32px;display:flex;flex-direction:column;gap:10px;font:14px/1.55 -apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;overflow-wrap:break-word}body>:first-child{margin-top:0}h1,h2,h3,h4,h5,h6{margin:6px 0 0;line-height:1.25;font-weight:600;text-wrap:balance}h1{font-size:1.35em}h2{font-size:1.15em;color:var(--md-muted)}h3,h4,h5,h6{font-size:1em}p,ul,ol,blockquote,table,pre,hr{margin:0}strong{font-weight:600}a{color:var(--md-link);text-decoration:none}a:hover{text-decoration:underline}ul,ol{display:flex;flex-direction:column;gap:6px;padding-left:22px}ul{list-style:disc}ol{list-style:decimal}:is(li,td,th)>*+:is(p,ul,ol,blockquote){margin-top:6px}blockquote{display:flex;flex-direction:column;gap:10px;border-left:2px solid var(--md-rule);padding-left:10px;color:var(--md-muted)}:not(pre)>code{background:var(--md-fill);padding:1px 3px;border-radius:4px;font:.92em 'SF Mono',ui-monospace,Menlo,Consolas,monospace}a>code{background:none;color:inherit}pre{background:var(--md-fill);padding:10px 12px;border-radius:6px;overflow-x:auto;font:12px/1.5 'SF Mono',ui-monospace,Menlo,Consolas,monospace;margin-block:4px}pre code{background:none;padding:0;font:inherit}table{width:100%;border-collapse:separate;border-spacing:2px;font:inherit}th,td{padding:6px 8px;border-radius:3px;text-align:left;vertical-align:top}th{background:var(--md-fill-strong);font-weight:600}td{background:var(--md-fill)}:is(th,td) :not(pre)>code{background:transparent}hr{border:0;border-top:1px solid var(--md-rule-strong);margin-block:10px}img{max-width:100%;height:auto;border-radius:4px}</style>
+</head><body>
+<h1>FrameSaver — Market &amp; Monetization Research</h1>
+<p><em>Working notes: business viability, competitor landscape, monetization, and feature findings</em></p>
+<hr>
+<h2>1. Business viability — summary</h2>
+<p>Solid side-project, not a scalable business on its own. The core edge isn't &quot;we auto-pick the best frame&quot; anymore (competitors already do that) — it's <strong>fixing the two things that actually annoy people in this category</strong> (frame/preview accuracy, no bloat/ads/tracking) plus being genuinely free/cheap in a market that's mostly pay-once or ad-light already.</p>
+<p>Positioning: not &quot;cheaper than the competition&quot; (most competitors are already free or ~$2 one-time — little room to undercut) but &quot;does more, asks for less.&quot;</p>
+<hr>
+<h2>2. Competitor landscape</h2>
+<p>Most competitors found are iOS-first — Android search results for this category were noticeably thinner, which may be a real opening.</p>
+<table>
+<thead>
+<tr>
+<th>App</th>
+<th>Platform</th>
+<th>Pricing model</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sidekick: Perfect Frame</td>
+<td>iOS</td>
+<td>Free core (daily JPEG export) + one-time Premium unlock</td>
+<td>On-device &quot;Suggested Frame&quot; AI ranking, side-by-side nearby-frame comparison</td>
+</tr>
+<tr>
+<td>KeeperTake: Video Frame Picker</td>
+<td>iOS</td>
+<td>Free + Pro IAP</td>
+<td>AI Picks suggestions, &quot;Keeps&quot; comparison tray, batch export, Pro &quot;Focus Scan&quot; refinement</td>
+</tr>
+<tr>
+<td>Ezy Video to Photo and Frames</td>
+<td>iOS/Android</td>
+<td>Free</td>
+<td>Best-frame/thumbnail selection, time-interval capture, GIF export</td>
+</tr>
+<tr>
+<td>Frame Grabber – TrueFrame</td>
+<td>iOS</td>
+<td>Pay once, no subscription</td>
+<td>Markets explicitly against subscription fatigue; Live Photo support</td>
+</tr>
+<tr>
+<td>Video to Photo Grabber</td>
+<td>iOS</td>
+<td>$1.99 flat</td>
+<td>Frame-by-frame scrub, no ads</td>
+</tr>
+<tr>
+<td>Video Image Capture</td>
+<td>iOS</td>
+<td>Free + IAP</td>
+<td>&quot;Burst&quot; extracts 6 frames before/after your pick for comparison</td>
+</tr>
+<tr>
+<td>Photo Extractor</td>
+<td>iOS</td>
+<td>Free</td>
+<td>Live Photo stills too; ranks alongside CapCut/Canva in app-store discovery</td>
+</tr>
+<tr>
+<td>Video to Photo / Image</td>
+<td>iOS</td>
+<td>Free, <strong>no ads at all</strong></td>
+<td>4.8★ / 266 ratings — best-rated app found in the category; scene-thumbnail strip across whole video</td>
+</tr>
+<tr>
+<td>Video to Pic</td>
+<td>iOS</td>
+<td>Free + optional ads-free subscription ($0.99/mo or $5.99/yr)</td>
+<td>EXIF/metadata carried onto exported photo</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. Ad revenue — realistic numbers</h2>
+<p>2026 AdMob benchmarks (US): banner ~$0.20–0.80 eCPM, interstitial ~$3–14 eCPM, rewarded ~$8–19 eCPM. Blended global rates (what you'd actually see early on) are much lower — often $1–4 eCPM for interstitials.</p>
+<p>The real problem is <strong>usage frequency</strong>, not the rate — this is a burst-use utility (opened occasionally, not daily):</p>
+<ul>
+<li>1,000 monthly active users, <del>2 sessions/month, 1 interstitial/session ≈ 2,000 impressions/month → **</del>$6/month**</li>
+<li>10,000 MAU (good traction for a niche utility) → <strong>~$60/month</strong></li>
+<li>Clearing ~$500–1,000/month in ad revenue would need 100k+ monthly impressions — tens of thousands of active, returning users, which this category doesn't naturally produce.</li>
+</ul>
+<p><strong>Conclusion:</strong> ads alone are unlikely to be meaningful at realistic scale. A small one-time IAP (remove ads / unlock batch export) from even a few hundred users would likely outperform ad income at the same install count.</p>
+<hr>
+<h2>4. Donate / &quot;Buy Me a Coffee&quot; option (new)</h2>
+<p>Idea: offer a voluntary donate/tip button as an alternative to a hard paywall or IAP — some users would rather give a small one-off amount than commit to a purchase flow, especially for a free/no-ads utility.</p>
+<ul>
+<li>Fits naturally with the &quot;no ads, no subscription, pay what you want&quot; positioning already emerging from the competitor research (the best-rated app in the category is free and ad-free).</li>
+<li>Low friction: no feature-gating logic needed, no App Store % cut if hosted outside the store (Buy Me a Coffee / Ko-fi take a small platform fee instead).</li>
+<li>Works best <em>alongside</em> — not instead of — a real monetization path (e.g. one-time &quot;remove ads&quot; IAP), since goodwill donations alone are unlikely to generate reliable income at low user counts. Best framed as a nice-to-have top-up, not the primary revenue plan.</li>
+<li>Could be paired with a simple in-app message after a few successful exports (&quot;If this saved you a headache, you can buy me a coffee&quot;) rather than shown upfront.</li>
+</ul>
+<hr>
+<h2>5. Features worth copying</h2>
+<ul>
+<li><strong>Comparison tray, not just one AI pick</strong> — save several nearby candidate frames (like KeeperTake's &quot;Keeps&quot;) so the user confirms the AI's choice rather than trusting it blindly.</li>
+<li><strong>Pay-once, no subscription — stated explicitly</strong> in marketing copy (TrueFrame's whole pitch). Matches your existing direction.</li>
+<li><strong>Free daily quota instead of a hard paywall</strong> (Sidekick) — proves quality before asking for money.</li>
+<li><strong>Scene thumbnail strip across the whole video</strong> — the highest-rated app in the category (4.8★) uses this instead of blind scrubbing for long clips.</li>
+<li><strong>Preserve original date/location metadata (EXIF)</strong> on the exported photo — cheap to add, keeps the still properly placed in the user's photo library timeline.</li>
+<li><strong>Lead with privacy messaging</strong> (&quot;on-device, no upload, no account&quot;) — nearly universal in this category's marketing, clearly something buyers filter on.</li>
+<li><strong>No ads at all, as the headline feature</strong> — the best-reviewed app in the space is ad-free and says so up front.</li>
+</ul>
+<hr>
+<h2>6. Known pain points to get ahead of</h2>
+<ul>
+<li><strong>Frame/preview mismatch is an industry-wide bug</strong>, not unique to your app — a competitor's latest changelog literally reads &quot;fixed thumbnail/frame mismatch on certain videos.&quot; Solving this properly (likely a codec/keyframe-seeking issue) is a genuine, provable differentiator worth marketing.</li>
+<li><strong>Instability/crashes on long or 4K video</strong> — &quot;improved stability&quot; is one of the most common changelog lines across competitors, matching the OOM/large-video risk already flagged in your own build.</li>
+<li><strong>Ad/subscription irritation</strong> — several competitors sell &quot;ads-free&quot; tiers or highlight in reviews that &quot;the ads aren't even irritating,&quot; implying ads are commonly the top complaint elsewhere.</li>
+<li><strong>Slow processing / re-encoding wait</strong> — at least one competitor markets &quot;no annoying re-encoding wait&quot; as a selling point, meaning it's a known frustration elsewhere. Your ~25–30s processing time with a proper progress/animation already puts you ahead.</li>
+<li><strong>Overreaching data collection</strong> — one free competitor's privacy label lists location, identifiers, usage data and diagnostics all linked to the user, for what should be a simple offline tool. Staying genuinely local/no-tracking is a real edge, not just copy.</li>
+</ul>
+<hr>
+<h2>7. Open threads / next decisions</h2>
+<ul>
+<li>Whether to gate ads at all, given the low realistic revenue vs. the reputational cost seen in competitor reviews.</li>
+<li>Where to host the donate link (Buy Me a Coffee vs. Ko-fi vs. GitHub Sponsors) and when to surface it in the app.</li>
+<li>Whether &quot;no ads, donate if you like it&quot; could be the whole monetization story, with a one-time IAP reserved for genuinely premium features (dynamic theming, batch export) rather than ad removal.</li>
+</ul>
+
+</body></html>
